@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.store{
+    margin: auto;
+    min-height: 100%;
+    width: 60%;
+    background-color: rgb(213, 218, 218);
+    /* padding: 10px; */
+    
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.image >img{
+    height: 20px;
+    width: 20px;
+}
+.card{
+    border: 1px solid black;
+    height: 320px;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+.card>img{
+    width: 100%;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.card >img:hover{
+    scale: 1.1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.shoes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.imge{
+    height: 240px;
+    width: 100%;
+}
